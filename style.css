@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-color: rgb(37, 37, 12)
+    
+}
+header {
+    height: 60px;
+    padding: 10px;
+    border:1px solid ;
+    border-color: transparent yellow  yellow yellow ;
+    border-radius: 0 0 60px 60px ;
+    background-color: #000;   
+    box-shadow: 2px 2px 2px 2px yellow; 
+    
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transform: translateY(8px);
+}
+ul {
+    display: flex;
+    list-style: none;
+    
+}
+li {
+    margin-left: 30px;
+    
+}
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(221, 213, 213);
+}
+a:hover {
+    height: 30px;
+    border-radius: 20px 0;
+    border-color: transparent;
+    background-color: rgb(97, 97, 11);
+}
+.contenar {
+    display: flex;
+    padding: 20px;
+    height: 100vh;
+}
+.div1 {
+    width: 60%;
+    padding: 200px 0 0 90px;
+    
+
+}
+.div1 h3 {
+    font-size: 30px;
+    color: white;
+}
+.div1 h2 {
+    color: yellow;
+    margin-top: 10px;
+}
+.div1 h4 {
+    color: white;
+    margin-top: 10px;
+}
+.div1 p {
+    color: white;
+    margin-top: 10px;
+}
+.div1 .btn1 {
+    margin-top: 15px;
+    height: 30px;
+    background-color: yellow;
+    color: black;
+    border-radius: 20px 0;
+    border-color: transparent;
+    
+}
+.div2 {
+    width: 30%;
+    height: 500px;
+    border: 2px solid transparent;
+    border-radius: 130px 0 ;
+    background-color: black;
+    margin: 80px ;
+    text-align: center;
+    box-shadow: 4px 4px 4px 4px yellow;
+    
+}
+.div2 .login
+{
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 40px 0;
+    transform: translatex(40%);
+    padding-top: 10px;
+    
+}
+.inputs {
+    height: 30px;
+    width: 70%;
+    margin-top: 25px;
+    background-color: rgba(0, 0, 0, 0.329);
+    transform: translateX(-10px);
+}
+.btn2 {
+    display: block;
+    transform: translatex(78px);
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px 0;
+    background-color: yellow;
+    color: black;
+    
+}
+.div2 p {
+    color: white;
+    margin-top: 20px;
+}
+.div2 .head {
+    color: yellow;
+    margin-top: 20px;
+}
+.icons {
+    transform: translateX(-10px);
+}
+i {
+    color: yellow;
+    margin-top: 50px;
+    padding-left: 15px;
+}
